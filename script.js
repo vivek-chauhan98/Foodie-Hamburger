@@ -7,7 +7,9 @@ const logo = document.querySelector('.logo')
 const menuLists = document.querySelectorAll('.side-menu a')
 
 
-hamburgerMenu.addEventListener('click', () => {    
+
+hamburgerMenu.addEventListener('click', (e) => {    
+    e.stopPropagation()
     hamburgerMenu.style.display = 'none'
     sideMenu.style.right = '24px'    
 })
@@ -42,4 +44,3 @@ window.addEventListener('click', () => {
 sideMenu.addEventListener('click', (e) => {
     e.stopPropagation()
 })
-
