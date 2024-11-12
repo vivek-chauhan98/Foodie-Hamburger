@@ -174,7 +174,7 @@ header{
         padding-bottom: 30px;
         background-color: rgba(255, 255, 255, 0.9);
         position: absolute;
-        top: 24px;
+        top: 36px;
         right: -340px;
         transition: right 0.5s;
     }
@@ -202,7 +202,7 @@ header{
         width: 55px;
         padding-left: 10px;
         padding-bottom: 10px;
-        background-color: white;
+        background-color: #fff;
         border-bottom-left-radius: 100%;        
         display: flex;
         justify-content: center;
@@ -213,7 +213,6 @@ header{
     }
 }
 
-
 @media (max-width: 430px) { 
 
     .side-menu a{
@@ -221,4 +220,3 @@ header{
     }
 
 }
-
