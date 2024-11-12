@@ -34,3 +34,12 @@ menuLists.forEach((el) => {
     })
 })
 
+window.addEventListener('click', () => {
+    sideMenu.style.right = '-340px' 
+    hamburgerMenu.style.display = 'flex'
+})
+
+sideMenu.addEventListener('click', (e) => {
+    e.stopPropagation()
+})
+
